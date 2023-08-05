@@ -21,7 +21,7 @@ def propose(date):
 
 if __name__ == '__main__':
 
-    st.title("求婚大作战")
+    st.title("小惊喜哦，请年月日输清楚")
     
     date = st.text_input("请输入恋爱纪念日")  
 
