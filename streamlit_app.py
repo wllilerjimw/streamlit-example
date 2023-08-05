@@ -12,7 +12,7 @@ def calculate_bmi(height, weight):
   bmi = weight / (height ** 2)
   if bmi < 18.5:
     return "过轻"
-  elif bmi < 25:  
+  elif bmi < 25:
     return "正常"
   elif bmi < 28:
     return "过重"
@@ -34,4 +34,4 @@ if __name__ == '__main__':
   else:
     st.write("日期错误,请重新输入")
     
-st.write("生日快乐!")
+st.write("""生日快乐!""")
