@@ -24,3 +24,24 @@ if __name__ == '__main__':
         st.write(propose(date))
     else:
         st.write("日期错误,请重新输入")
+
+
+
+
+height=1.65
+weight=68
+h=height
+w=weight
+bmi=(w/(h*h))
+b=bmi
+if b<18.5:
+    print("过轻")
+elif b>=18.5 and b<25:
+    print("正常")
+elif b>=25 and b<28:
+    print("过重")
+elif b>=28 and b<32:
+    print("肥胖")
+elif b>=32:
+    print("严重肥胖")
+
