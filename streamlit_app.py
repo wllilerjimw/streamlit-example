@@ -34,4 +34,4 @@ if __name__ == '__main__':
   else:
     st.write("日期错误,请重新输入")
     
-st.write(""生日快乐"")
+
