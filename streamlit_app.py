@@ -14,15 +14,18 @@ forums](https://discuss.streamlit.io).
 
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
+import streamlit as st
 
+def propose(date):
+  return "陈燕,嫁给我吧"
 
-def propote(date):
-    return "陈燕，嫁给我吧"
+if __name__ == '__main__':
 
+    st.title("求婚大作战")
+    
+    date = st.text_input("请输入恋爱纪念日")  
 
-x= input("请输入我们的恋爱纪念日时间")
-if x =="2021年6月8日":
-   print(propote(x))
-else:
-    print("日期错误，请重新输入")
-
+    if date == "2021年6月8日":
+        st.write(propose(date))
+    else:
+        st.write("日期错误,请重新输入")
