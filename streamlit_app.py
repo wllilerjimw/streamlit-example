@@ -36,3 +36,15 @@ with st.echo(code_location='below'):
     st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
         .mark_circle(color='#0068c9', opacity=0.5)
         .encode(x='x:Q', y='y:Q'))
+
+
+def propote(date):
+    return "陈燕，嫁给我吧"
+
+
+x= input("请输入我们的恋爱纪念日时间")
+if x =="2021年6月8日":
+   print(propote(x))
+else:
+    print("日期错误，请重新输入")
+ 
